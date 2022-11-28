@@ -1,7 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
-Chrome = '/Users/jun/Desktop/实验室/开源项目/chromedriver'
+Chrome = 'chromedriver'  # Path of chromedriver
 browser = webdriver.Chrome(Chrome)
 browser.get('https://numpy.org/about/#steering-council')
 html = browser.page_source
